@@ -1,6 +1,6 @@
 # APB-Class
-Purpose of this Website
+Purpose of this Website| 
 Warm Wonders makes a lovely place for those who love to enjoy cakes and drinks. A variety of recipes are showcased by the website including sweet Mexican conchas and refreshing iced matcha. This allows users to go into comforting food options. Inspired by the ambiance of a 'La La Land cafe,' Warm Wonders combines simple navigation and aesthetic appeal. This creates an easy, and visually enjoyable experience. Creativity in the kitchen is inspired by providing a collection of flavorful recipes. Therefore, these can be enjoyed by everyone. A resourceful culinary path is encouraged through this effort.
 
-Features and design
+Features and design|
 The website is easy to use with a simple design. The community's favorite recipes, like glazed doughnuts, and vanilla iced coffee, are featured prominently on the homepage with links which allow quick access to detailed recipe pages. A warm, and welcoming environment is created by the calming color palette and simple yet elegant typography. The website is crafted by making sure every section is designed with care. This mindful design makes it easy for every visitor to find inspiration and pilot through the various recipes and resources available.
