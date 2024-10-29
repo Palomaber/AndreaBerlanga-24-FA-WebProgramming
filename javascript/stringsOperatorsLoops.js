@@ -12,8 +12,8 @@ var family6 = sentence2.slice(15, 16);
 var family2 = sentence2.slice(63,64);
 var family100 = sentence2.slice(96, 99);
 //extracted values from variable 100
-var family10 = family100.substring (-3,3);
-var family0 = family0.substring (3);
+var family10 = family100.substring(-3,3);
+var family0 = family100.substring(3);
 //converts variables to actual numbers
 var family0 = parseInt("0");
 var family1 = parseInt("1");
