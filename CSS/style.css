@@ -160,6 +160,22 @@ text-align: center;
 
 /*Mobile*/
 @media (max-width: 590px) {
+        
+#containerImg{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.img_container {
+    width: 103%;
+}
+
+figcaption{
+    margin-bottom: 10px;
+}
 
 .heroLanding img {
     width: 100vw;
@@ -183,7 +199,7 @@ text-align: center;
 
 .fav-heading{
     font-size: 22px;
-
+    text-align: center;
 }
 
 nav{
@@ -191,6 +207,7 @@ flex-direction: column;
 justify-self: space-around 12px;
 
 }
+        
 nav ul{
     flex-direction: row;
     flex-direction: column;
@@ -200,10 +217,10 @@ nav ul{
 .bottom_header_content{
     padding: 14px;
 }
+        
 .bottom_header_content .logo{
     font-size: 17px;
 }
  
 
 }
- 
