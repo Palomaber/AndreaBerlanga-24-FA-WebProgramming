@@ -36,7 +36,7 @@ console.log(sentence3);
 let i = family0;
 //while loop displays count
 while (i < family10){
-    i++
+    i++;
 //
     console.log("I saw" + i + "car(s) on my trip.");
 }
