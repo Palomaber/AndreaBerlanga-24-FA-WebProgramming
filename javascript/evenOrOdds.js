@@ -28,7 +28,8 @@ let product = parse1 * parse2;
 if (product % 2 === 0) {
 alert(product + " is even");
 console.log(product + " is even");
-} else {
+} 
+else {
 alert(product + " is odd");
 console.log(product + " is odd");
 }
