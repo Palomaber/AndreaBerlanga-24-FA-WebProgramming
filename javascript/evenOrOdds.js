@@ -3,9 +3,9 @@ var one = prompt ("Please inpute a number between 1 and 10");
 var two = prompt ("Please inpute a number between 1 and 10"); 
 //
 parse1 = parseInt(one);
-console.log(parseA);
+console.log(parse1);
 parse2 = parseInt(two);
-console.log(parseB);
+console.log(parse2);
 //
 var redostat = "Your value(s) did not meet the requirments";
 //
