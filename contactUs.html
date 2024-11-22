@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Warm Wonders"/>
+    <title> Warm Wonders</title>
+<!--<script src="./javascript/script.js"></script>-->
+    <script src="./javascript/formValidation.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--fonts-->
+<link rel="stylesheet" href="./CSS/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" 
+rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" r
+el="stylesheet"/>
+
+</head>
+<!--body start-->
+<body class="body_content">
+<!--heading-->
+    <header class="header_content">
+        <nav>
+<!--logo heading-->
+            <ul class="nav-left">
+            <li><a href="#logo" class="logo">Warm Wonders</a></li>
+            </ul>
+<!--reg heading-->
+            <ul class="nav-right">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#goal">GOAL</a></li>
+            <li><a href="#recipes">RECIPES</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+<!--START OF CONTACT-->
+        <div class="contact-form">
+             <h2>Contact Us</h2>
+        <form id="contactForm">
+<!-- name inputs -->
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+    
+             <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+    
+<!-- radio buttons  -->
+            <div class="form-group">
+                <label>Preferred Contact Method:</label><br>
+                <label for="emailContact">Email</label>
+                <input type="radio" id="emailContact" name="contactMethod" value="Email">
+                <label for="phoneContact">Phone</label>
+                <input type="radio" id="phoneContact" name="contactMethod" value="Phone">
+            </div>
+    
+<!-- checkboxes for purchased items -->
+            <div class="form-group">
+                <label>Items to Purchase:</label><br>
+                <label for="DessertRecipies">Dessert Recipes ($15)</label>
+                <input type="checkbox" id="Dessert Recipies" value="5">
+                <label for="BrewersRecipies">Brewers Recipes ($10)</label>
+                <input type="checkbox" id="Brewers Recipies" value="10">
+                <label for="DessertBrewersRecipies">Dessert & Brewers Recipes ($25)</label>
+                <input type="checkbox" id="Dessert  & Brewers Recipies" value="15">
+            </div>
+    
+<!-- dropdown ist for quantity -->
+        <div class="form-group">
+            <label for="orderSize">Quantity:</label>
+            <select id="orderSize" name="orderSize">
+                <option value="small">1</option>
+                <option value="medium">2</option>
+                <option value="large">3</option>
+            </select>
+            </div>
+    
+<!-- text area for message -->
+        <div class="form-group">
+             <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+            </div>
+    
+<!-- submit and reset button -->
+            <div class="form-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        </form>
+     </div>
+    </body>
+    </html>
