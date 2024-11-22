@@ -224,3 +224,168 @@ nav ul{
  
 
 }
+
+/*--START OF CONTACT--*/
+
+/* body */
+.body_content {
+    background-color: #FCF9F7; 
+    font-family: "Georama", serif;
+    max-width: 1224px;
+    font-size: 15px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+/* Header Section */
+.header_content {
+    background-color: #DFD9D5; 
+    padding: 22px;
+    font-family: 'Georama', sans-serif;
+}
+
+/* Warm Wonders Logo */
+.logo {
+    font-family: 'Akaya Kanadaka', serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: #584B53; 
+    text-decoration: none;
+}
+
+/* nav */
+.header_content nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-right {
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #584B53; 
+    font-size: 14px;
+}
+
+/* contact form */
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #FCF9F7; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #3a2c1958; 
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #584B53; 
+}
+
+.contact-form input[type="text"],
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4d2d2;
+    border-radius: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-us-header {
+    color: #584B53; 
+}
+
+.contact-form button {
+    background-color: #584B53;  
+    color: #FCF9F7; 
+    padding: 12px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #DFD9D5; 
+}
+
+/* footer section */
+.bottom_header_content {
+    background-color: #DFD9D5; 
+    padding: 20px;
+    font-family: 'Georama', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bottom_header_content .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #584B53; 
+    text-align: center;
+}
+
+.nav-bottom li {
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 590px) {
+
+    .contact-form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .contact-form label {
+        font-size: 15px;
+    }
+
+    .contact-form button {
+        font-size: 1em;
+        padding: 10px 18px;
+    }
+
+    
+    .header_content {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .bottom_header_content .logo {
+        font-size: 17px;
+    }
+}
