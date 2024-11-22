@@ -305,17 +305,6 @@ a {
     color: #584B53; 
 }
 
-.contact-form input[type="text"],
-.contact-form textarea,
-.contact-form select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #d4d2d2;
-    border-radius: 5px;
-    font-size: 13px;
-    box-sizing: border-box;
-}
-
 .contact-form textarea {
     height: 120px;
 }
