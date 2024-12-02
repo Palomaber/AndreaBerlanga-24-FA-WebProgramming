@@ -1,7 +1,7 @@
 //event listener for submission
-document.querySelector('form').addEventListener('submit', callingFunction);
-
-// Function 1
+// document.querySelector('form').addEventListener('submit', callingFunction);
+document.querySelector('#contactForm').addEventListener('submit', callingFunction);
+// Function 
 //for form submission
 function callingFunction(event) {
     event.preventDefault();
@@ -21,10 +21,11 @@ function callingFunction(event) {
     const totalOrder = totalPrice();
     
 //Log the form data and total price to the console
-    console.log(`User's name: ${fName}`);
-    console.log(`User's phone number: ${pNumber}`);
-    console.log(`Added message: ${tBox}`);
-    console.log(`Your final total is ${totalOrder}`);
+console.log("User's name: " + fName);
+console.log("User's phone number: " + pNumber);
+console.log("Added message: " + tBox);
+console.log("Your final total is " + totalOrder);
+
 }
 
 // Function 2
@@ -66,4 +67,3 @@ if (item3.checked) {
 // Returning total price
     return totalOrder;  
 }
-
