@@ -21,14 +21,14 @@ document.querySelector("#thirdText").innerHTML =
 function Green() {
   document.querySelector(".headings").style.backgroundColor = "#ADC698";
 }
-document.querySelector("ColorChanging").addEventListener("click", Green);
+document.querySelector("#ColorChanging").addEventListener("click", Green);
 
 function Blue() {
   document.querySelector(".headings").style.backgroundColor = "#6A8EAE";
 }
-document.querySelector("ColorChanged").addEventListener("click", Blue);
+document.querySelector("#ColorChanged").addEventListener("click", Blue);
 
 function Purple() {
   document.querySelector(".headings").style.backgroundColor = "#7D5C65";
 }
-document.querySelector("ColorChange").addEventListener("click", Purple);
+document.querySelector("#ColorChange").addEventListener("click", Purple);
